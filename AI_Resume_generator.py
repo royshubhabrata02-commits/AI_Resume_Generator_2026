@@ -1,11 +1,11 @@
 import streamlit as st
 
-import google.genai as genai
+
 
 import os
 
 from dotenv import load_dotenv
-
+import google.genai as genai
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
